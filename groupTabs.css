@@ -1,0 +1,66 @@
+body {
+	width: 220px;
+}
+
+#groupTabs {
+	outline:none;
+	margin-left:45px;
+	margin-bottom:4px;
+}
+
+#searchInput {
+	width:98%;
+}
+
+#tableScroll {
+	border:1px solid black;
+	width:100%;
+	height:105px;
+	overflow:auto; 
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+table {
+	width:100%;
+	text-align:left;
+	table-layout:fixed;
+}
+
+th:nth-child(1){
+     width:65px;
+}
+
+
+thead tr {
+	background: white !important;
+}
+
+tr:nth-child(even) {
+	background: rgb(182, 228, 243);
+}
+tr:nth-child(odd) {
+	background: rgb(245,245,245);
+}
+
+.tablecell {
+	outline-color:black;
+}
+
+#buttonGrouping {
+	margin-top:7px;
+}
+
+
+#addRow {
+	height:30px;
+}
+
+#deleteRow {
+	height:30px;
+}
+
+#saveGrouping {
+	height:30px;
+	float:right;
+}
