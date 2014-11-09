@@ -168,6 +168,7 @@ function deleteRow() {
     }
 }
 
+// check for duplicates
 function checkForDuplicates(groupingInfo, site) {
     for (var key in groupingInfo) {
         var siteInfo = groupingInfo[key];
